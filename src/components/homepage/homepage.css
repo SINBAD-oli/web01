@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    background: rgb(54, 54, 54);
+}
+.intro{
+    height: 100vh;
+    position: relative;
+    padding: 5vw;
+    
+    overflow: hidden;
+}
+.intro__content {
+    position: absolute;
+    right: 8%;
+    bottom: 15%;
+    z-index: 3;
+    
+    @media screen and (max-width: 768px) {
+        right: auto;
+    }
+}
+.intro__title {
+    font-size: 25vw;
+    color:white;
+    overflow: hidden;
+    letter-spacing: -2.3vw;
+    padding-right: 2.3vw;
+    animation-name: slideTitle;
+    animation-duration: 5s;
+    animation-delay: 0s
+
+    @media all and (max-width: 768px) {
+        margin-bottom: 5vh;
+    }
+}
+@-webkit-keyframes slideTitle {
+    0%   { transform: translate(800px,0px); opacity:0; }
+    10% {opacity:1;}
+    100% { transform: translate(0px,0px); }
+  }
+  @-moz-keyframes slideTitle {
+    0%   { transform: translate(800px,0px); opacity:0; }
+    10% {opacity:1;}
+    100% { transform: translate(0px,0px); }
+  }
+  @-o-keyframes slideTitle {
+    0%   { transform: translate(800px,0px); opacity:0; }
+    10% {opacity:1;}
+    100% { transform: translate(0px,0px); }
+    }
+  @keyframes slideTitle {
+    0%   { transform: translate(800px,0px);opacity:0; }
+    10% {opacity:1;}
+    100% { transform: translate(0px,0px); }
+  }
+
+
+.intro__img {
+    position: absolute;
+    width: 35%;
+    max-width: 390px;
+    height: auto;
+    
+    @media all and (max-width: 768px) {
+        width: 75vw;
+    }
+}
+.intro__img--1 {
+    z-index: 2;
+    left: 10%;
+    bottom: 35%;
+    animation-name: slideimg1;
+    animation-duration: 5s;
+    animation-delay: 0s
+    
+    @media all and (max-width: 768px) {
+        top: 15vh;
+        left: 50%;
+        bottom: 50vh;
+    }
+}
+@-webkit-keyframes slideimg1 {
+    0%   { transform: translate(-800px,0px); }
+    100% { transform: translate(0px,0px); }
+  }
+  @-moz-keyframes slideimg1 {
+    0%   { transform: translate(-800px,0px); }
+    100% { transform: translate(0px,0px); }
+  }
+  @-o-keyframes slideimg1 {
+    0%   { transform: translate(-800px,0px); }
+    100% { transform: translate(0px,0px); }
+  }
+  @keyframes slideimg1 {
+    0%   { transform: translate(-800px,0px); }
+    100% { transform: translate(0px,0px); }
+  }
+
+
+.intro__img--2 {
+    z-index: 1;
+    left: 25%;
+    bottom: 40%;
+    animation-name: slideimg2;
+    animation-duration: 5s;
+    animation-delay: 2s
+    
+    @media all and (max-width: 768px) {
+        top: 2vh;
+        left: 70%;
+        bottom: 60vh;
+    }
+}
+@-webkit-keyframes slideimg2 {
+    0%   { transform: translate(0px,-800px); }
+    100% { transform: translate(0px,0px); }
+  }
+  @-moz-keyframes slideimg2 {
+    0%   { transform: translate(0px,-800px); }
+    100% { transform: translate(0px,0px); }
+  }
+  @-o-keyframes slideimg2 {
+    0%   { transform: translate(0px,-800px); }
+    100% { transform: translate(0px,0px); }
+  }
+  @keyframes slideimg2 {
+    0%   { transform: translate(0px,-800px); }
+    100% { transform: translate(0px,0px); }
+  }
+
+.intro__txt {
+    max-width: 35vw;
+    margin-left: 25vw; 
+    position: relative;
+    animation-name: slideP;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    bottom: 500px;
+    font-size: 20px;
+    color: rgb(128, 126, 126);
+    text-shadow: 
+      0 0 px #fff;
+      
+    
+}
+@-webkit-keyframes slideP {
+    0%   { transform: translate(0px,800px); opacity:0; }
+    10%  {opacity:1;}
+    100% { transform: translate(0px,0px); }
+  }
+  @-moz-keyframes slideP {
+    0%   { transform: translate(0px,800px); }
+    10%  {opacity:1;}
+    100% { transform: translate(0px,0px); }
+  }
+  @-o-keyframes slideP {
+    0%   { transform: translate(0px,800px); }
+    10%  {opacity:1;}
+    100% { transform: translate(0px,0px); }
+  }
+  @keyframes slideP {
+    0%   { transform: translate(0px,800px); }
+    10%  {opacity:1;}
+    100% { transform: translate(0px,0px); }
+  }
