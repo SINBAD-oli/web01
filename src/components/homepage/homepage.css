@@ -21,18 +21,17 @@ body{
     }
 }
 .intro__title {
-    font-size: 25vw;
+    font-size: 15vw;
     color:white;
     overflow: hidden;
-    letter-spacing: -2.3vw;
+    letter-spacing: 0vw;
+    padding-bottom: 30%;
+    padding-left: 10px;
     padding-right: 2.3vw;
     animation-name: slideTitle;
     animation-duration: 5s;
-    animation-delay: 0s
-
-    @media all and (max-width: 768px) {
-        margin-bottom: 5vh;
-    }
+    animation-delay: 0s;
+    @media all and (max-width: 768px) {margin-bottom: 5vh;}
 }
 @-webkit-keyframes slideTitle {
     0%   { transform: translate(800px,0px); opacity:0; }
@@ -72,9 +71,10 @@ body{
     bottom: 35%;
     animation-name: slideimg1;
     animation-duration: 5s;
-    animation-delay: 0s
+    animation-delay: 0s;
     
-    @media all and (max-width: 768px) {
+    @media all and (max-width: 768px) 
+    {
         top: 15vh;
         left: 50%;
         bottom: 50vh;
@@ -104,7 +104,7 @@ body{
     bottom: 40%;
     animation-name: slideimg2;
     animation-duration: 5s;
-    animation-delay: 2s
+    animation-delay: 0s;
     
     @media all and (max-width: 768px) {
         top: 2vh;

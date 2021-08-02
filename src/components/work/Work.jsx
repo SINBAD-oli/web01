@@ -148,13 +148,17 @@ export default function Work() {
         <div className="work">
             <div className="header">
                 <h1>Archive</h1>
+            </div>
+            <div className="miniHeader">
                 <p>List of things I've work on</p>
+                <p>List of thing I've photographed</p>
             </div>
             <div className="table">
                 <div className="tableContainer">
                     <ProjectList />
                 </div>
-                <p>List of thing I've photographed</p>
+                <div className="divider"></div>
+                
                 <div className="tableContainer2">
                     <ProjectList2 />
                 </div>
