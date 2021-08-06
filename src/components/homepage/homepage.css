@@ -1,7 +1,7 @@
 body{
     margin: 0;
     overflow: hidden;
-    background: rgb(54, 54, 54);
+    background: #023047;
 }
 .intro{
     height: 100vh;
@@ -22,7 +22,7 @@ body{
 }
 .intro__title {
     font-size: 15vw;
-    color:white;
+    color:#FB8500;
     overflow: hidden;
     letter-spacing: 0vw;
     padding-bottom: 30%;
@@ -136,9 +136,9 @@ body{
     animation-name: slideP;
     animation-duration: 5s;
     animation-delay: 0s;
-    bottom: 500px;
+    bottom: 300px;
     font-size: 20px;
-    color: rgb(128, 126, 126);
+    color: #FFB703;
     text-shadow: 
       0 0 px #fff;
       

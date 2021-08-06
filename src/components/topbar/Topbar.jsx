@@ -19,8 +19,8 @@ export default function Topbar() {
                 <ul className="topList">
                     <li className="toplistItem" id="l"><Link to="/Homepage">Home</Link></li>
                     <li className="toplistItem" id="l"><Link to="/Gallery">Gallery</Link></li>
-                    <li className="toplistItem" id="l"><Link to="/Work">Work</Link></li>
-                    <li className="toplistItem" id="l">Contact</li>
+                    <li className="toplistItem" id="l"><Link to="/Work">Projects</Link></li>
+                    <li className="toplistItem" id="l"><Link to="/Contact">Contact</Link></li>
                 </ul>
             </div>
         </div>

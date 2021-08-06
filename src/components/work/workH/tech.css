@@ -1,0 +1,131 @@
+.tableContainer{
+    margin:auto;
+    width: 50%;
+    padding:70px;
+    
+
+}
+.table{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.header{
+    display: block;
+}
+h1{
+    color: white;
+    display: block;
+    margin-block-start:0.67em;
+    margin-block-end:0.67em ;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 2em;
+    font-weight: bold; 
+}
+table{
+    display: table;
+    text-indent: initial;
+    border-spacing:2px;
+    border-color: grey;
+}
+thead{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    color: #FB8500;
+    font-size: 20px;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+th{
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align:center;
+}
+tbody{
+    display:table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+table, td,th,td{
+    padding: 10px;
+    text-align: left;
+}
+.year{
+    color: #FFB703;
+    font-size: 20px;
+    font-weight: 400;
+}
+.title{
+    padding-top: 15px;
+    padding-right: 20px;
+    color:#219EBC;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+.company{
+    color: #8892B0;
+    white-space: nowrap;
+    font-size: 20px;
+
+}
+.tech{
+    line-height: 1.5;
+    color: #8892B0;
+}
+span{
+    display: inline-block;
+}
+
+
+
+.publish span {
+    font-size: 18px;
+    color: #8ECAE6;
+}
+.publish span + span{
+    border-left: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.publish span:first-child {
+    padding-right: 10px;
+}
+
+.tech span {
+    font-size: 18px;
+}
+.tech span + span{
+    border-left: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tech span:first-child {
+    padding-right: 10px;
+}
+.tech span {
+    color:#8ECAE6;
+}
+
+.link i {
+    color: #CDE8F4;
+    text-decoration: none;
+}
+.tableContainer2 td.company {
+    color: #CCD6F6;
+}
